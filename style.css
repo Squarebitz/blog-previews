@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
+/* ========== Global Styles ========== */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,8 @@
 
   font-family: "Figtree", sans-serif;
 }
+
+/* ========== Variables ========== */
 
 :root {
   --cc-background-yellow: #f4d04e;
@@ -32,6 +36,8 @@ section {
   flex-direction: column;
   min-height: 100vh;
 }
+
+/* ========== Card Styles ========== */
 
 .container {
   background-color: var(--cc-white-color);
@@ -110,7 +116,8 @@ section {
   cursor: pointer;
 }
 
-/* Desktop screen media 800 screen*/
+/* ========== Media Queries | Desktop Screen Size ========== */
+
 @media (min-width: 800px) {
   .container {
     max-width: 384px;
