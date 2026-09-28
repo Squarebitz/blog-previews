@@ -118,13 +118,13 @@ section {
 
 /* ===== Attribution notes | This is a simple attribution note ===== */
 
-.attribution {
+.pro_author {
   margin-top: 24px;
   font-size: 0.75rem;
   color: var(--cc-color-grey-500);
 }
 
-.attribution a {
+.pro_author a {
   color: var(--cc-color-grey-950);
   text-decoration: none;
   cursor: pointer;
